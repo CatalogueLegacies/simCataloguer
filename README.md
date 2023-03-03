@@ -4,6 +4,8 @@ simCataloguer is a workflow for generating machine-authored text and images from
 
 # Setup
 
+This process assumes assumes familiarity with Windows Powershell.
+
 ## System Requirements
 
 Please note that you may require a large amount of VRAM to use this library. Data we have gathered so far: 8Gb is not enough but 24Gb is sufficient.
@@ -11,48 +13,32 @@ Please note that you may require a large amount of VRAM to use this library. Dat
 ## Installation
 
 ### Clone repo
+
 `git clone --recursive git@github.com:dreamingspires/simCataloguer.git`
+
+### Optional steps
 
 You may need to install zlib, and graphics driver
 
-### Get NVIDIA GPU Computing Toolkit, CUDA
-https://developer.nvidia.com/cuda-11-7-0-download-archive
+- get [NVIDIA GPU Computing Toolkit, CUDA 11.7.0](https://developer.nvidia.com/cuda-11-7-0-download-archive)
+- get [cuDNN](https://developer.nvidia.com/rdp/cudnn-download).
+- install [cuDNN](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html).
 
-### Get cuDNN
-https://developer.nvidia.com/rdp/cudnn-download
+### Installations
 
-#### Install cuDNN
-https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
-
-### Install python 3.9
-https://www.python.org/downloads/release/python-3913/
-
-### Install pip (may not be required, check with pip --version)
-https://pip.pypa.io/en/stable/installation/
-
-### Install Poetry
-https://python-poetry.org/docs/#installation
-
-#### Add poetry to path using on screen instructions
-
-#### Reboot shell
-
-#### Check with poetry --version
-
-`poetry config virtualenvs.in-project true`
-
-### Install deps with poetry
-`poetry install` (You may need to run this more than once, it fails to parallel process on occasion)
-
-### Windows specific
-
-`poetry run pip install --extra-index-url https://download.pytorch.org/whl/cu117 --no-deps --force-reinstall torch torchvision`
+- install [python 3.9](https://www.python.org/downloads/release/python-3913/).
+- install [pip](https://pip.pypa.io/en/stable/installation/) (may not be required, check with pip --version)
+- install [Poetry](https://python-poetry.org/docs/#installation).
+- add poetry to path using on screen instructions.
+- reboot shell.
+- check with poetry --version.
+- run `poetry config virtualenvs.in-project true`.
+- `poetry install` (You may need to run this more than once, it fails to parallel process on occasion)
+- `poetry run pip install --extra-index-url https://download.pytorch.org/whl/cu117 --no-deps --force-reinstall torch torchvision`
 
 ## Run test
 
-Go into the `examples` folder and run:
-
-`poetry run python test_writer.py`
+- Go into your `examples` directory within `simCataloguer` and run `poetry run python test_writer.py`'
 
 # Credits
 
