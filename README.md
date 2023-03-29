@@ -48,7 +48,9 @@ You may need to install zlib, and graphics driver
 
 # Reuse
 
-[BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) is derived from a dataset [published by the British Museum](https://www.britishmuseum.org/about_this_site/terms_of_use/copyright_and_permissions.aspx), data and derived data are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [license](https://github.com/CuratorialVoice/data/blob/master/README.md). For more info on this dataset see Baker, James, & Salway, Andrew. (2019, June 13). Creation of the BMSatire Descriptions corpus (Version v1.0). Zenodo. doi: [10.5281/zenodo.3245037](http://doi.org/10.5281/zenodo.3245037).
+[BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) is derived from a dataset [published by the British Museum](https://www.britishmuseum.org/about_this_site/terms_of_use/copyright_and_permissions.aspx), data and derived data are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [license](https://github.com/CuratorialVoice/data/blob/master/README.md).
+
+For more info on this dataset see Baker, James, & Salway, Andrew. (2019, June 13). Creation of the BMSatire Descriptions corpus (Version v1.0). Zenodo. doi: [10.5281/zenodo.3245037](http://doi.org/10.5281/zenodo.3245037).
 
 # Credits
 
