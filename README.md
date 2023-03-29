@@ -46,6 +46,10 @@ You may need to install zlib, and graphics driver
 - When you first run `poetry run python test_writer.py` a language model will be built based on the input file in `examples/test_writer`. If this process fails, you may need to download a pre-trained model. For `MDG.txt` a [pre-trained model is available to download here](https://drive.google.com/file/d/1lqEbEo_VMOuAfCvnZ220Z-Wb7GfsE3lA/view?usp=sharing). This should be unzipped and placed at `simCataloguer/checkpoint`.
 - When you first run `poetry run python test_writer.py`, four large files will be downloaded to `simCataloguer/.venv/Lib/site-packages/pixray_module/models`. If the downloads fail for any reason, then rerunning `poetry run python test_writer.py` will fail. If this happens four files - `yfcc_2.pth`, `ViB-32.pt`, ViT-B-16.pt`, and `RN50,pt` can be downloaded seperately and manually placed in this directory. As 'yfcc_2.pth` is the largest and most likely to fail, we include a [direct download link here](https://the-eye.eu/public/AI/models/v-diffusion/yfcc_2.pth).
 
+# Reuse
+
+[BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) is derived from a dataset [published by the British Museum](https://www.britishmuseum.org/about_this_site/terms_of_use/copyright_and_permissions.aspx), data and derived data are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [license](https://github.com/CuratorialVoice/data/blob/master/README.md). For more info on this dataset see Baker, James, & Salway, Andrew. (2019, June 13). Creation of the BMSatire Descriptions corpus (Version v1.0). Zenodo. doi: [10.5281/zenodo.3245037](http://doi.org/10.5281/zenodo.3245037).
+
 # Credits
 
 simCataloguer was developed by [Dreaming Spires Software Development Ltd](https://dreamingspires.dev/
