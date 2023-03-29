@@ -40,6 +40,12 @@ You may need to install zlib, and graphics driver
 
 - Go into your `examples` directory within `simCataloguer` and run `poetry run python test_writer.py`'
 
+## Notes
+
+- You can adjust `num_cuts` and `quality` settings in `examples/test_writer` depending on the GPU size of your local machine. See the [Pixray documentation](https://dazhizhong.gitbook.io/pixray-docs/docs/primary-settings) for details.
+- When you first run `poetry run python test_writer.py` a language model will be built based on the input file in `examples/test_writer`. If this process fails, you may need to download a pre-trained model. For `MDG.txt` a pre-trained model is available to download here. This should be unzipped and placed at `simCataloguer/checkpoint`.
+- When you first run `poetry run python test_writer.py`, four large files will be downloaded to `simCataloguer/.venv/Lib/site-packages/pixray_module/models`. If the downloads fail for any reason, then rerunning `poetry run python test_writer.py` will fail. If this happens four files - `yfcc_2.pth`, `ViB-32.pt`, ViT-B-16.pt`, and `RN50,pt` can be downloaded seperately and manually placed in this directory. As 'yfcc_2.pth` is the largest and most likely to fail, we include a [direct download link here](https://the-eye.eu/public/AI/models/v-diffusion/yfcc_2.pth).
+
 # Credits
 
 simCataloguer was developed by [Dreaming Spires Software Development Ltd](https://dreamingspires.dev/
